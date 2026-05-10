@@ -6,7 +6,6 @@ CREATE TABLE users(
     email VARCHAR(255) NOT NULL UNIQUE,
     sdt VARCHAR(20) NOT NULL,
     address VARCHAR(255) NOT NULL,
-    birthday DATE NOT NULL,
     password VARCHAR(255) NOT NULL
 );
 
