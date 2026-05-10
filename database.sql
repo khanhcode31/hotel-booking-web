@@ -7,7 +7,6 @@ CREATE TABLE users(
     sdt VARCHAR(20) NOT NULL,
     address VARCHAR(255) NOT NULL,
     birthday DATE NOT NULL,
-    gender ENUM('male','female') NOT NULL,
     password VARCHAR(255) NOT NULL
 );
 
